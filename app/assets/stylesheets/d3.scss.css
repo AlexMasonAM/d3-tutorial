@@ -18,3 +18,11 @@ svg .house {
   stroke: black;
   stroke-width: 2;
 }
+
+#option {
+  background-color: lightblue;
+}
+
+#nValue {
+  background-color: lightblue;
+}
