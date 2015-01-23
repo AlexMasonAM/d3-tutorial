@@ -2,30 +2,12 @@
 <h3>svg with slider</h3>
 
   
- <!--    <svg width="75" height="75">
-      <line x1="25" y1="0" x2="50" y2="20"  class="house"/>
-      <line x1="50" y1="20" x2="50" y2="50"  class="house"/>
-      <line x1="50" y1="50" x2="0" y2="50"  class="house"/>
-      <line x1="0" y1="50" x2="0" y2="20"  class="house"/>
-      <line x1="0" y1="20" x2="25" y2="0"  class="house"/>
-      <rect x="0" y="30" width="30" height="20" fill="purple"/>
-    </svg> -->
 
-  <!-- Bootstrap Slider -->  
-  <div class="well">
-    <div class="slider slider-horizontal" style="width: 140px;">
-      <div class="slider-tack">
-        <div class="slider-selection" style="left: 0%; width: 100%;"></div>
-        <div class="slider-handle round" style="left: 30%;"></div>
-        <div class="slider-handle round hide" style="left: 0%;"></div>
-      </div>
-      <div class="tooltip top" style="top: -40px; left: -5px;">
-        <div class="tooltip-arrow"></div>
-        <div class="tooltip-inner">Current value: 3</div>
-      </div>
-      <input type="text" class="span2" value="4" id="sl1">
-    </div>
-  </div>
+
+
+  <%= render 'form' %>
+
+  <%= render 'housesvg' %>
 
   <p> words before the script</p>
 
