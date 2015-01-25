@@ -1,0 +1,18 @@
+<h1>Stackoverflow </h1>
+<h3>svg images</h3>
+
+<script type="text/javascript">
+  var svg = d3.select("body")
+    .append("svg")
+      .attr("width", 200)
+      .attr("height", 100)
+      .style("border", "1px solid black");
+  var imgs = svg.selectAll("image").data([0]);
+    imgs.enter()
+      append("svg:image")
+      .attr("xlink:href", "file:///D:/d3js_projects/refresh.png")
+      .attr("x", "60")
+      .attr("y", "60")
+      .attr("width", "20")
+      .attr("height", "20");
+</script>            
