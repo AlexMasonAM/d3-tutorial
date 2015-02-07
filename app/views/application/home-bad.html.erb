@@ -1,0 +1,129 @@
+<h1>Stackoverflow </h1>
+<h3>svg images</h3>
+
+<p>
+  <label for="nValue" 
+         style="display: inline-block; width: 240px; text-align: right">
+         Angle/FlopHouse = <span id="nValue-value"></span>
+  </label>
+  <input type="number" min="-720" max="720" step="5" value="0" id="nValue" >
+</p>
+<p>
+  <label for="nRatio" 
+         style="display: inline-block; width: 240px; text-align: right">
+         Ratio/Profit % = <span id="nRatio-value"></span>
+  </label>
+  <input type="number" min="-10" max="10" step=".10" value="0" id="nRatio" >
+</p>
+
+<script>
+
+var width = 512;
+var height = 512;
+var centerX = 75;
+var centerY = 75;
+
+var config = {
+    "house_size" : 512
+}
+
+
+var holder = d3.select("body")
+    .append("svg")
+//     .attr("width", width)    
+//     .attr("height", height); 
+// // append an image
+// holder.append("svg:pattern")
+//     .attr("id", "house_avatar")
+//     .attr("width", config.fliphouse_size)
+//     .attr("height", config.fliphouse_size)
+//     .append("svg:image")
+//     .attr("xlink:href", 'http://placekitten.com/g/48/48')
+//     .attr("width", config.fliphouse_size)
+//     .attr("height", config.fliphouse_size)
+//     .attr("x", 0)
+//     .attr("y", 0);
+// draw the element
+// holder.append("rect")
+//   .style("stroke", "black")
+//   .style("stroke-width", "2px")
+//   .style("fill", "blue")
+//   .attr("x1", 0)
+//   .attr("y1", 0)
+//   .attr("width", "512")
+//   .attr("height","512")
+//   .attr("transform", "translate(0,0) rotate(0)")
+//   ;
+
+var rect = holder.append("rect")
+        .attr("x", config.house_size)
+        .attr("y", config.house_size)
+        .attr("width", width)
+        .attr("height", height)
+        .style("fill", "blue")
+        // .style("fill", "http://www.veryicon.com/icon/png/Emoticon/Black%20Power%20Emoticons/quiet%20512x512.png");
+
+var config = {
+    "avatar_size" : 512
+}
+
+// var body = d3.select("body");
+
+// var svg = body.append("svg")
+//         .attr("width", 512)
+//         .attr("height", 512);
+
+var defs = holder.append("rect").append("defs");
+
+defs.append("svg:image")
+    .attr("xlink:href", "http://www.veryicon.com/icon/png/Emoticon/Black%20Power%20Emoticons/quiet%20512x512.png")
+    .attr("width", config.avatar_size)
+    .attr("height", config.avatar_size)
+    .attr("x", 0)
+    .attr("y", 0);
+
+// var circle = svg.append("circle")
+//         .attr("cx", config.avatar_size/2)
+//         .attr("cy", config.avatar_size/2)
+//         .attr("r", config.avatar_size/2)
+//         .style("fill", "#fff")
+//         .style("fill", "url(#grump_avatar)");
+
+//TUTORIAL TWO
+//   var imgs = holder.selectAll("image").data([0]);
+//     imgs.enter()
+//       .append("svg:image")
+//         .attr("xlink:href", "http://www.veryicon.com/icon/png/Emoticon/Black%20Power%20Emoticons/quiet%20512x512.png")
+//         .attr("x", "0")
+//         .attr("y", "0")
+//         .attr("width", "512")
+//         .attr("height", "512")
+//         .attr("transform", "translate(0,0) rotate(0)");
+
+// d3.select("#nValue").on("input", function() {
+//   update1(+this.value);
+// });
+// d3.select("#nRatio").on("input", function() {
+//   update2(+this.value);
+// });
+
+update1(0);
+update2(1);
+
+function update1(nValue) {
+  // adjust the value
+  holder.select("image") 
+    .attr("transform", "translate(150,100) rotate("+nValue+", 75,75)"); 
+}
+function update2(nRatio) {
+  if (-1 < nRatio){
+  holder.select("rect") 
+      .attr("width", "100" * (1 + nRatio))
+      .attr("height","100" * (1 + nRatio))
+  }
+}        
+</script>
+
+
+
+
