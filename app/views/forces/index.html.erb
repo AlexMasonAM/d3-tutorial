@@ -2,3 +2,15 @@
 <h1>Users</h1>
 
 <%= @json_array %>
+
+<% @users.each do |u| %>
+  <p><%= u.user_name %></p>
+
+<% end %>
+
+<h1>Trucks</h1>
+
+<% @trucks.each do |t| %>
+  <p><%= t.truck_name %></p>
+
+<% end %>

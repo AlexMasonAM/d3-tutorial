@@ -37,7 +37,11 @@ class ForcesController < ActionController::Base
 
     @json_array = [{user_trucks: json_array_user_trucks}, {truck_users: json_array_truck_users}].to_json
     
-    # render json: json_array
+    #render json: json_array overrides the 
+
+    json_array = [{user_trucks: json_array_user_trucks}, {truck_users: json_array_truck_users}].to_json
+    
+    render json: json_array
   end
 end
 
