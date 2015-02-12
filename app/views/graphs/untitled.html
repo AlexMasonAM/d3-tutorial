@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <p id="paragraph">
+  </p>
+  
+</body>
+<script>
+  var paragraph =   document.getElementById('paragraph');
+  function addnum(x,y) {
+    return x + y;
+  }
+  function addtext(x,y) {
+    return x + " + " + y + " = " + addnum(x,y);
+  }
+  var text = addtext(2,2);
+  paragraph.innerHTML = text;
+</script>
+</html>

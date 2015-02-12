@@ -1,0 +1,1677 @@
+[
+  {
+    "id": 1,
+    "name": "Stim Seafood",
+    "genre": "Seafood",
+    "twitter_handle": "@Stim SeafoodSeafood",
+    "yelp_id": "kc676ynr7ctnyrrp",
+    "yelp_ratings": "5",
+    "tweet_most_recent": "Non aliquid ea illum quis maiores.",
+    "users": [
+      {
+        "id": 8,
+        "first_name": "Chaim",
+        "last_name": "Ankunding",
+        "email": "mercedes@flatley.biz",
+        "yelp_id": "s1aq2622n7nicy5r"
+      },
+      {
+        "id": 12,
+        "first_name": "Dena",
+        "last_name": "Ward",
+        "email": "mallie@corkery.name",
+        "yelp_id": "8zjpfepa2m8d8izk"
+      },
+      {
+        "id": 15,
+        "first_name": "Sierra",
+        "last_name": "Schiller",
+        "email": "tyrell.mcdermott@bogisich.name",
+        "yelp_id": "9jeiv0htcvdl2171"
+      },
+      {
+        "id": 17,
+        "first_name": "Monty",
+        "last_name": "Barrows",
+        "email": "rey_dare@hagenes.info",
+        "yelp_id": "zvizd0q3k3d2a8js"
+      },
+      {
+        "id": 23,
+        "first_name": "Jordon",
+        "last_name": "Thiel",
+        "email": "justen@luettgen.name",
+        "yelp_id": "gjc7w68njav37wc8"
+      },
+      {
+        "id": 25,
+        "first_name": "Mary",
+        "last_name": "O'Kon",
+        "email": "nora@mraz.net",
+        "yelp_id": "6qzc70e017p69dy5"
+      },
+      {
+        "id": 30,
+        "first_name": "Linda",
+        "last_name": "Paucek",
+        "email": "stephan@oreilly.info",
+        "yelp_id": "8x6noat3tfng09jm"
+      },
+      {
+        "id": 44,
+        "first_name": "Giovanna",
+        "last_name": "Hettinger",
+        "email": "lera_funk@skiles.name",
+        "yelp_id": "eviwvnnij0ina49e"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Redhold Burgers",
+    "genre": "Burgers",
+    "twitter_handle": "@Redhold BurgersBurgers",
+    "yelp_id": "gezkdkd4ptzc2y36",
+    "yelp_ratings": "2",
+    "tweet_most_recent": "Assumenda architecto voluptate quia commodi veritatis.",
+    "users": [
+      {
+        "id": 1,
+        "first_name": "D'angelo",
+        "last_name": "Stiedemann",
+        "email": "philip.ruel@bogisichjones.org",
+        "yelp_id": "oe0kwhdq416wb4ci"
+      },
+      {
+        "id": 7,
+        "first_name": "Kathleen",
+        "last_name": "Torphy",
+        "email": "olin@wolff.com",
+        "yelp_id": "428b05wx9fe2m7ti"
+      },
+      {
+        "id": 8,
+        "first_name": "Chaim",
+        "last_name": "Ankunding",
+        "email": "mercedes@flatley.biz",
+        "yelp_id": "s1aq2622n7nicy5r"
+      },
+      {
+        "id": 12,
+        "first_name": "Dena",
+        "last_name": "Ward",
+        "email": "mallie@corkery.name",
+        "yelp_id": "8zjpfepa2m8d8izk"
+      },
+      {
+        "id": 13,
+        "first_name": "Abagail",
+        "last_name": "Jacobi",
+        "email": "caandra@fadelstamm.org",
+        "yelp_id": "orr59julav8gd4w1"
+      },
+      {
+        "id": 23,
+        "first_name": "Jordon",
+        "last_name": "Thiel",
+        "email": "justen@luettgen.name",
+        "yelp_id": "gjc7w68njav37wc8"
+      },
+      {
+        "id": 23,
+        "first_name": "Jordon",
+        "last_name": "Thiel",
+        "email": "justen@luettgen.name",
+        "yelp_id": "gjc7w68njav37wc8"
+      },
+      {
+        "id": 30,
+        "first_name": "Linda",
+        "last_name": "Paucek",
+        "email": "stephan@oreilly.info",
+        "yelp_id": "8x6noat3tfng09jm"
+      },
+      {
+        "id": 37,
+        "first_name": "Easter",
+        "last_name": "Bartell",
+        "email": "mazie.mertz@emardnolan.net",
+        "yelp_id": "fjw42ih8rqvs1fkz"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Y-find American",
+    "genre": "American",
+    "twitter_handle": "@Y-find AmericanAmerican",
+    "yelp_id": "p3o36i3w1bocbvlt",
+    "yelp_ratings": "3",
+    "tweet_most_recent": "Dolor tempora quod rerum corporis perferendis iure enim.",
+    "users": [
+      {
+        "id": 14,
+        "first_name": "Odell",
+        "last_name": "Wilderman",
+        "email": "general_murazik@roberts.biz",
+        "yelp_id": "jldrk76y032t75kc"
+      },
+      {
+        "id": 16,
+        "first_name": "Chet",
+        "last_name": "Beier",
+        "email": "stephany_bauch@rippin.name",
+        "yelp_id": "uzpemk0az8awl1hj"
+      },
+      {
+        "id": 18,
+        "first_name": "Tracy",
+        "last_name": "Boehm",
+        "email": "alfreda@cummingsgreen.info",
+        "yelp_id": "6t386zq53iotbqtx"
+      },
+      {
+        "id": 21,
+        "first_name": "Jordyn",
+        "last_name": "Schowalter",
+        "email": "alexander@strosin.info",
+        "yelp_id": "g0kyy0hi02qvd05f"
+      },
+      {
+        "id": 29,
+        "first_name": "Maxime",
+        "last_name": "Beatty",
+        "email": "walton@wiza.info",
+        "yelp_id": "js6hhokl99s4wi8h"
+      },
+      {
+        "id": 29,
+        "first_name": "Maxime",
+        "last_name": "Beatty",
+        "email": "walton@wiza.info",
+        "yelp_id": "js6hhokl99s4wi8h"
+      },
+      {
+        "id": 32,
+        "first_name": "Skylar",
+        "last_name": "Gleason",
+        "email": "ralph.olson@cormier.name",
+        "yelp_id": "edcmy9c2a73aj2n0"
+      },
+      {
+        "id": 38,
+        "first_name": "Cora",
+        "last_name": "Leffler",
+        "email": "pat.keeling@ruelkuphal.com",
+        "yelp_id": "4v7lihun3kqsm84w"
+        },
+      {
+        "id": 40,
+        "first_name": "Morris",
+        "last_name": "O'Connell",
+        "email": "susana_purdy@deckowmohr.info",
+        "yelp_id": "4ofyxxp4u0uqzzfv"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Mat Lam Tam Vegan",
+    "genre": "Vegan",
+    "twitter_handle": "@Mat Lam Tam VeganVegan",
+    "yelp_id": "3a54550vj78hee4s",
+    "yelp_ratings": "2",
+    "tweet_most_recent": "Libero est repellendus et ut non natus.",
+    "users": [
+      {
+      "id": 23,
+      "first_name": "Jordon",
+      "last_name": "Thiel",
+      "email": "justen@luettgen.name",
+      "yelp_id": "gjc7w68njav37wc8"
+      },
+      {
+      "id": 29,
+      "first_name": "Maxime",
+      "last_name": "Beatty",
+      "email": "walton@wiza.info",
+      "yelp_id": "js6hhokl99s4wi8h"
+      },
+      {
+      "id": 35,
+      "first_name": "Martin",
+      "last_name": "Senger",
+      "email": "georgette_turcotte@davisquitzon.biz",
+      "yelp_id": "elolzxqriwsmf0ah"
+      },
+      {
+      "id": 39,
+      "first_name": "Sherwood",
+      "last_name": "Schimmel",
+      "email": "roxane@douglas.info",
+      "yelp_id": "vi32bhsekxmqr4r5"
+      },
+      {
+      "id": 44,
+      "first_name": "Giovanna",
+      "last_name": "Hettinger",
+      "email": "lera_funk@skiles.name",
+      "yelp_id": "eviwvnnij0ina49e"
+      },
+      {
+      "id": 47,
+      "first_name": "Sheridan",
+      "last_name": "Lockman",
+      "email": "arielle@schuppe.org",
+      "yelp_id": "l47nodmkobcbsmwc"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Lotstring Fusion",
+    "genre": "Fusion",
+    "twitter_handle": "@Lotstring FusionFusion",
+    "yelp_id": "redenh21lcxd6jr5",
+    "yelp_ratings": "3",
+    "tweet_most_recent": "Similique itaque non deserunt fuga et dolores enim.",
+    "users": [
+      {
+      "id": 6,
+      "first_name": "Kenny",
+      "last_name": "Fadel",
+      "email": "kenya@watsicadickinson.info",
+      "yelp_id": "ognp7n2zg4jkbtv9"
+      },
+      {
+      "id": 9,
+      "first_name": "Ines",
+      "last_name": "Pagac",
+      "email": "miguel.baumbach@langoshschuppe.org",
+      "yelp_id": "a2mrg4gv8t20jgcc"
+      },
+      {
+      "id": 10,
+      "first_name": "Adolfo",
+      "last_name": "Swift",
+      "email": "kendra.kemmer@flatley.biz",
+      "yelp_id": "pn5k6s6v024opxn5"
+      },
+      {
+      "id": 18,
+      "first_name": "Tracy",
+      "last_name": "Boehm",
+      "email": "alfreda@cummingsgreen.info",
+      "yelp_id": "6t386zq53iotbqtx"
+      },
+      {
+      "id": 21,
+      "first_name": "Jordyn",
+      "last_name": "Schowalter",
+      "email": "alexander@strosin.info",
+      "yelp_id": "g0kyy0hi02qvd05f"
+      },
+      {
+      "id": 21,
+      "first_name": "Jordyn",
+      "last_name": "Schowalter",
+      "email": "alexander@strosin.info",
+      "yelp_id": "g0kyy0hi02qvd05f"
+      },
+      {
+      "id": 31,
+      "first_name": "Ralph",
+      "last_name": "Ratke",
+      "email": "hermina@rogahn.org",
+      "yelp_id": "86bafdpdmaucqewl"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Y-find American",
+    "genre": "American",
+    "twitter_handle": "@Y-find AmericanAmerican",
+    "yelp_id": "g7278pwyjuktvijh",
+    "yelp_ratings": "4",
+    "tweet_most_recent": "Voluptas ipsum eum rerum tenetur ea.",
+    "users": [
+      {
+        "id": 26,
+        "first_name": "Dalton",
+        "last_name": "Kuphal",
+        "email": "mireya_hintz@bayer.name",
+        "yelp_id": "k46s3n4lsfwykkey"
+      },
+      {
+        "id": 37,
+        "first_name": "Easter",
+        "last_name": "Bartell",
+        "email": "mazie.mertz@emardnolan.net",
+        "yelp_id": "fjw42ih8rqvs1fkz"
+      },
+      {
+        "id": 38,
+        "first_name": "Cora",
+        "last_name": "Leffler",
+        "email": "pat.keeling@ruelkuphal.com",
+        "yelp_id": "4v7lihun3kqsm84w"
+      },
+      {
+        "id": 48,
+        "first_name": "Sallie",
+        "last_name": "Runolfsson",
+        "email": "selena@rippinsawayn.name",
+        "yelp_id": "a20q4sstxhcn4p7g"
+      },
+      {
+        "id": 49,
+        "first_name": "Erica",
+        "last_name": "Block",
+        "email": "willard.kiehn@marvin.org",
+        "yelp_id": "ctzf20lnfpxsyry6"
+      }
+      ]
+  },
+  {
+    "id": 7,
+    "name": "Stronghold Burgers",
+    "genre": "Burgers",
+    "twitter_handle": "@Stronghold BurgersBurgers",
+    "yelp_id": "zzrd5hvtbn11x17h",
+    "yelp_ratings": "4",
+    "tweet_most_recent": "Minus reiciendis omnis et excepturi voluptatem perspiciatis quos.",
+    "users": [
+      {
+        "id": 7,
+        "first_name": "Kathleen",
+        "last_name": "Torphy",
+        "email": "olin@wolff.com",
+        "yelp_id": "428b05wx9fe2m7ti"
+      },
+      {
+        "id": 9,
+        "first_name": "Ines",
+        "last_name": "Pagac",
+        "email": "miguel.baumbach@langoshschuppe.org",
+        "yelp_id": "a2mrg4gv8t20jgcc"
+      },
+      {
+        "id": 11,
+        "first_name": "Makenzie",
+        "last_name": "McDermott",
+        "email": "abraham.goodwin@binsruel.org",
+        "yelp_id": "zwkpm6cqdr0f67zo"
+      },
+      {
+        "id": 12,
+        "first_name": "Dena",
+        "last_name": "Ward",
+        "email": "mallie@corkery.name",
+        "yelp_id": "8zjpfepa2m8d8izk"
+      },
+      {
+        "id": 26,
+        "first_name": "Dalton",
+        "last_name": "Kuphal",
+        "email": "mireya_hintz@bayer.name",
+        "yelp_id": "k46s3n4lsfwykkey"
+      },
+      {
+        "id": 27,
+        "first_name": "Lucienne",
+        "last_name": "Tremblay",
+        "email": "marilou_erdman@pacochaankunding.net",
+        "yelp_id": "tjb57zr91xq6ql36"
+      },
+      {
+        "id": 40,
+        "first_name": "Morris",
+        "last_name": "O'Connell",
+        "email": "susana_purdy@deckowmohr.info",
+        "yelp_id": "4ofyxxp4u0uqzzfv"
+      },
+      {
+        "id": 44,
+        "first_name": "Giovanna",
+        "last_name": "Hettinger",
+        "email": "lera_funk@skiles.name",
+        "yelp_id": "eviwvnnij0ina49e"
+      },
+      {
+        "id": 49,
+        "first_name": "Erica",
+        "last_name": "Block",
+        "email": "willard.kiehn@marvin.org",
+        "yelp_id": "ctzf20lnfpxsyry6"
+      },
+      {
+        "id": 49,
+        "first_name": "Erica",
+        "last_name": "Block",
+        "email": "willard.kiehn@marvin.org",
+        "yelp_id": "ctzf20lnfpxsyry6"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Keylex Korean",
+    "genre": "Korean",
+    "twitter_handle": "@Keylex KoreanKorean",
+    "yelp_id": "ksfmddlzkdnwxz7k",
+    "yelp_ratings": "4",
+    "tweet_most_recent": "Voluptate est doloribus dolore illo sequi omnis.",
+    "users": [
+      {
+          "id": 1,
+          "first_name": "D'angelo",
+          "last_name": "Stiedemann",
+          "email": "philip.ruel@bogisichjones.org",
+          "yelp_id": "oe0kwhdq416wb4ci"
+      },
+      {
+        "id": 6,
+        "first_name": "Kenny",
+        "last_name": "Fadel",
+        "email": "kenya@watsicadickinson.info",
+        "yelp_id": "ognp7n2zg4jkbtv9"
+      },
+      {
+        "id": 8,
+        "first_name": "Chaim",
+        "last_name": "Ankunding",
+        "email": "mercedes@flatley.biz",
+        "yelp_id": "s1aq2622n7nicy5r"
+      },
+      {
+        "id": 13,
+        "first_name": "Abagail",
+        "last_name": "Jacobi",
+        "email": "caandra@fadelstamm.org",
+        "yelp_id": "orr59julav8gd4w1"
+      },
+      {
+        "id": 20,
+        "first_name": "Elmira",
+        "last_name": "Mosciski",
+        "email": "zita@ondricka.name",
+        "yelp_id": "05ipknvagzrhbnnn"
+      },
+      {
+        "id": 27,
+        "first_name": "Lucienne",
+        "last_name": "Tremblay",
+        "email": "marilou_erdman@pacochaankunding.net",
+        "yelp_id": "tjb57zr91xq6ql36"
+      },
+      {
+        "id": 36,
+        "first_name": "Della",
+        "last_name": "Bosco",
+        "email": "kari_greenfelder@mayertschoen.info",
+        "yelp_id": "7f27cjvjpa82sy7r"
+      },
+      {
+        "id": 37,
+        "first_name": "Easter",
+        "last_name": "Bartell",
+        "email": "mazie.mertz@emardnolan.net",
+        "yelp_id": "fjw42ih8rqvs1fkz"
+      },
+      {
+        "id": 38,
+        "first_name": "Cora",
+        "last_name": "Leffler",
+        "email": "pat.keeling@ruelkuphal.com",
+        "yelp_id": "4v7lihun3kqsm84w"
+      },
+      {
+        "id": 38,
+        "first_name": "Cora",
+        "last_name": "Leffler",
+        "email": "pat.keeling@ruelkuphal.com",
+        "yelp_id": "4v7lihun3kqsm84w"
+      },
+      {
+        "id": 41,
+        "first_name": "Peyton",
+        "last_name": "Price",
+        "email": "mable@quigleywehner.biz",
+        "yelp_id": "dios7q1zkj0fxafo"
+      },
+      {
+        "id": 44,
+        "first_name": "Giovanna",
+        "last_name": "Hettinger",
+        "email": "lera_funk@skiles.name",
+        "yelp_id": "eviwvnnij0ina49e"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Temp Burgers",
+    "genre": "Burgers",
+    "twitter_handle": "@Temp BurgersBurgers",
+    "yelp_id": "xea35nc02uj9axtj",
+    "yelp_ratings": "3",
+    "tweet_most_recent": "Quo qui repellat voluptatem aut.",
+    "users": [
+      {
+        "id": 1,
+        "first_name": "D'angelo",
+        "last_name": "Stiedemann",
+        "email": "philip.ruel@bogisichjones.org",
+        "yelp_id": "oe0kwhdq416wb4ci"
+      },
+      {
+        "id": 6,
+        "first_name": "Kenny",
+        "last_name": "Fadel",
+        "email": "kenya@watsicadickinson.info",
+        "yelp_id": "ognp7n2zg4jkbtv9"
+      },
+      {
+        "id": 9,
+        "first_name": "Ines",
+        "last_name": "Pagac",
+        "email": "miguel.baumbach@langoshschuppe.org",
+        "yelp_id": "a2mrg4gv8t20jgcc"
+      },
+      {
+        "id": 14,
+        "first_name": "Odell",
+        "last_name": "Wilderman",
+        "email": "general_murazik@roberts.biz",
+        "yelp_id": "jldrk76y032t75kc"
+      },
+      {
+        "id": 17,
+        "first_name": "Monty",
+        "last_name": "Barrows",
+        "email": "rey_dare@hagenes.info",
+        "yelp_id": "zvizd0q3k3d2a8js"
+      },
+      {
+        "id": 19,
+        "first_name": "Karen",
+        "last_name": "Considine",
+        "email": "angel.macgyver@pfeffer.name",
+        "yelp_id": "hw1ker9v0glfee22"
+      },
+      {
+        "id": 22,
+        "first_name": "Clovis",
+        "last_name": "Marks",
+        "email": "alexandrine.gleichner@mckenzie.info",
+        "yelp_id": "3n07s53s7beaha3s"
+      },
+      {
+        "id": 22,
+        "first_name": "Clovis",
+        "last_name": "Marks",
+        "email": "alexandrine.gleichner@mckenzie.info",
+        "yelp_id": "3n07s53s7beaha3s"
+      },
+      {
+        "id": 22,
+        "first_name": "Clovis",
+        "last_name": "Marks",
+        "email": "alexandrine.gleichner@mckenzie.info",
+        "yelp_id": "3n07s53s7beaha3s"
+      },
+      {
+        "id": 24,
+        "first_name": "Omari",
+        "last_name": "Lind",
+        "email": "breanne.hettinger@kshlerinmcdermott.com",
+        "yelp_id": "ipbvqqtljco04e9k"
+      },
+      {
+        "id": 24,
+        "first_name": "Omari",
+        "last_name": "Lind",
+        "email": "breanne.hettinger@kshlerinmcdermott.com",
+        "yelp_id": "ipbvqqtljco04e9k"
+      },
+      {
+        "id": 26,
+        "first_name": "Dalton",
+        "last_name": "Kuphal",
+        "email": "mireya_hintz@bayer.name",
+        "yelp_id": "k46s3n4lsfwykkey"
+      },
+      {
+        "id": 39,
+        "first_name": "Sherwood",
+        "last_name": "Schimmel",
+        "email": "roxane@douglas.info",
+        "yelp_id": "vi32bhsekxmqr4r5"
+      },
+      {
+        "id": 47,
+        "first_name": "Sheridan",
+        "last_name": "Lockman",
+        "email": "arielle@schuppe.org",
+        "yelp_id": "l47nodmkobcbsmwc"
+      },
+      {
+        "id": 50,
+        "first_name": "Valentina",
+        "last_name": "O'Keefe",
+        "email": "hank@padbergkuhlman.com",
+        "yelp_id": "t4x2y6h76x6vylji"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Span Burgers",
+    "genre": "Burgers",
+    "twitter_handle": "@Span BurgersBurgers",
+    "yelp_id": "itn7cxgdhlmyvftj",
+    "yelp_ratings": "4",
+    "tweet_most_recent": "Ea eos eius enim est provident voluptatibus est.",
+    "users": [
+      {
+        "id": 2,
+        "first_name": "Garfield",
+        "last_name": "Farrell",
+        "email": "dax@moriette.info",
+        "yelp_id": "fzgiwbd6j89i0q11"
+      },
+      {
+        "id": 5,
+        "first_name": "Roderick",
+        "last_name": "Reilly",
+        "email": "mohamed.wilkinson@mohr.net",
+        "yelp_id": "ksivprvnzk4dfzk6"
+      },
+      {
+        "id": 6,
+        "first_name": "Kenny",
+        "last_name": "Fadel",
+        "email": "kenya@watsicadickinson.info",
+        "yelp_id": "ognp7n2zg4jkbtv9"
+      },
+      {
+        "id": 15,
+        "first_name": "Sierra",
+        "last_name": "Schiller",
+        "email": "tyrell.mcdermott@bogisich.name",
+        "yelp_id": "9jeiv0htcvdl2171"
+      },
+      {
+        "id": 18,
+        "first_name": "Tracy",
+        "last_name": "Boehm",
+        "email": "alfreda@cummingsgreen.info",
+        "yelp_id": "6t386zq53iotbqtx"
+      },
+      {
+        "id": 27,
+        "first_name": "Lucienne",
+        "last_name": "Tremblay",
+        "email": "marilou_erdman@pacochaankunding.net",
+        "yelp_id": "tjb57zr91xq6ql36"
+      },
+      {
+        "id": 35,
+        "first_name": "Martin",
+        "last_name": "Senger",
+        "email": "georgette_turcotte@davisquitzon.biz",
+        "yelp_id": "elolzxqriwsmf0ah"
+      },
+      {
+        "id": 38,
+        "first_name": "Cora",
+        "last_name": "Leffler",
+        "email": "pat.keeling@ruelkuphal.com",
+        "yelp_id": "4v7lihun3kqsm84w"
+      },
+      {
+        "id": 39,
+        "first_name": "Sherwood",
+        "last_name": "Schimmel",
+        "email": "roxane@douglas.info",
+        "yelp_id": "vi32bhsekxmqr4r5"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Treeflex Mexican",
+    "genre": "Mexican",
+    "twitter_handle": "@Treeflex MexicanMexican",
+    "yelp_id": "v5oitaut3m5gzvm3",
+    "yelp_ratings": "2",
+    "tweet_most_recent": "Officiis facere dolorum nemo.",
+    "users": [
+      {
+        "id": 3,
+        "first_name": "Bruce",
+        "last_name": "Carroll",
+        "email": "jodie@sporer.org",
+        "yelp_id": "tddu54uhea62a12q"
+      },
+      {
+        "id": 8,
+        "first_name": "Chaim",
+        "last_name": "Ankunding",
+        "email": "mercedes@flatley.biz",
+        "yelp_id": "s1aq2622n7nicy5r"
+      },
+      {
+        "id": 14,
+        "first_name": "Odell",
+        "last_name": "Wilderman",
+        "email": "general_murazik@roberts.biz",
+        "yelp_id": "jldrk76y032t75kc"
+      },
+      {
+        "id": 14,
+        "first_name": "Odell",
+        "last_name": "Wilderman",
+        "email": "general_murazik@roberts.biz",
+        "yelp_id": "jldrk76y032t75kc"
+      },
+      {
+        "id": 15,
+        "first_name": "Sierra",
+        "last_name": "Schiller",
+        "email": "tyrell.mcdermott@bogisich.name",
+        "yelp_id": "9jeiv0htcvdl2171"
+      },
+      {
+      "id": 20,
+        "first_name": "Elmira",
+        "last_name": "Mosciski",
+        "email": "zita@ondricka.name",
+        "yelp_id": "05ipknvagzrhbnnn"
+      },
+      {
+      "id": 24,
+        "first_name": "Omari",
+        "last_name": "Lind",
+        "email": "breanne.hettinger@kshlerinmcdermott.com",
+        "yelp_id": "ipbvqqtljco04e9k"
+      },
+      {
+        "id": 27,
+        "first_name": "Lucienne",
+        "last_name": "Tremblay",
+        "email": "marilou_erdman@pacochaankunding.net",
+        "yelp_id": "tjb57zr91xq6ql36"
+      },
+      {
+        "id": 29,
+        "first_name": "Maxime",
+        "last_name": "Beatty",
+        "email": "walton@wiza.info",
+        "yelp_id": "js6hhokl99s4wi8h"
+      },
+      {
+        "id": 34,
+        "first_name": "Georgette",
+        "last_name": "Roob",
+        "email": "osborne_lakin@stiedemanngleason.biz",
+        "yelp_id": "zrsbkqpkg4wle8lk"
+      },
+      {
+        "id": 35,
+        "first_name": "Martin",
+        "last_name": "Senger",
+        "email": "georgette_turcotte@davisquitzon.biz",
+        "yelp_id": "elolzxqriwsmf0ah"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Tempsoft Mexican",
+    "genre": "Mexican",
+    "twitter_handle": "@Tempsoft MexicanMexican",
+    "yelp_id": "urix4y98b2eqr6mu",
+    "yelp_ratings": "1",
+    "tweet_most_recent": "Asperiores consequatur et numquam incidunt provident ducimus voluptatibus.",
+    "users": [
+      {
+        "id": 7,
+        "first_name": "Kathleen",
+        "last_name": "Torphy",
+        "email": "olin@wolff.com",
+        "yelp_id": "428b05wx9fe2m7ti"
+      },
+      {
+       "id": 18,
+       "first_name": "Tracy",
+       "last_name": "Boehm",
+       "email": "alfreda@cummingsgreen.info",
+       "yelp_id": "6t386zq53iotbqtx"
+      },
+      {
+        "id": 20,
+        "first_name": "Elmira",
+        "last_name": "Mosciski",
+        "email": "zita@ondricka.name",
+        "yelp_id": "05ipknvagzrhbnnn"
+      },
+      {
+        "id": 26,
+        "first_name": "Dalton",
+        "last_name": "Kuphal",
+        "email": "mireya_hintz@bayer.name",
+        "yelp_id": "k46s3n4lsfwykkey"
+      },
+      {
+        "id": 47,
+        "first_name": "Sheridan",
+        "last_name": "Lockman",
+        "email": "arielle@schuppe.org",
+        "yelp_id": "l47nodmkobcbsmwc"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Treeflex Barbeque",
+    "genre": "Barbeque",
+    "twitter_handle": "@Treeflex BarbequeBarbeque",
+    "yelp_id": "7fpedvq7o9lsbgh7",
+    "yelp_ratings": "2",
+    "tweet_most_recent": "Aperiam alias ut placeat sequi nam suscipit.",
+    "users": [
+      {
+        "id": 2,
+        "first_name": "Garfield",
+        "last_name": "Farrell",
+        "email": "dax@moriette.info",
+        "yelp_id": "fzgiwbd6j89i0q11"
+      },
+      {
+        "id": 2,
+        "first_name": "Garfield",
+        "last_name": "Farrell",
+        "email": "dax@moriette.info",
+        "yelp_id": "fzgiwbd6j89i0q11"
+      },
+      {
+        "id": 2,
+        "first_name": "Garfield",
+        "last_name": "Farrell",
+        "email": "dax@moriette.info",
+        "yelp_id": "fzgiwbd6j89i0q11"
+      },
+      {
+        "id": 4,
+        "first_name": "Schuyler",
+        "last_name": "Veum",
+        "email": "emelie@dickenscollins.com",
+        "yelp_id": "7rtka2lt3teybr63"
+      },
+      {
+        "id": 13,
+        "first_name": "Abagail",
+        "last_name": "Jacobi",
+        "email": "caandra@fadelstamm.org",
+        "yelp_id": "orr59julav8gd4w1"
+      },
+      {
+        "id": 19,
+        "first_name": "Karen",
+        "last_name": "Considine",
+        "email": "angel.macgyver@pfeffer.name",
+        "yelp_id": "hw1ker9v0glfee22"
+      },
+      {
+        "id": 19,
+        "first_name": "Karen",
+        "last_name": "Considine",
+        "email": "angel.macgyver@pfeffer.name",
+        "yelp_id": "hw1ker9v0glfee22"
+      },
+      {
+        "id": 32,
+        "first_name": "Skylar",
+        "last_name": "Gleason",
+        "email": "ralph.olson@cormier.name",
+        "yelp_id": "edcmy9c2a73aj2n0"
+      },
+      {
+        "id": 36,
+        "first_name": "Della",
+        "last_name": "Bosco",
+        "email": "kari_greenfelder@mayertschoen.info",
+        "yelp_id": "7f27cjvjpa82sy7r"
+      },
+      {
+        "id": 40,
+        "first_name": "Morris",
+        "last_name": "O'Connell",
+        "email": "susana_purdy@deckowmohr.info",
+        "yelp_id": "4ofyxxp4u0uqzzfv"
+      },
+      {
+        "id": 45,
+        "first_name": "Makenzie",
+        "last_name": "Langworth",
+        "email": "graham.purdy@stiedemannerdman.name",
+        "yelp_id": "z24ewyr9blw7t58u"
+      },
+      {
+        "id": 50,
+        "first_name": "Valentina",
+        "last_name": "O'Keefe",
+        "email": "hank@padbergkuhlman.com",
+        "yelp_id": "t4x2y6h76x6vylji"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Bigtax American",
+    "genre": "American",
+    "twitter_handle": "@Bigtax AmericanAmerican",
+    "yelp_id": "hvpqf2as6qi2nqot",
+    "yelp_ratings": "4",
+    "tweet_most_recent": "Autem omnis sequi ad est ducimus aliquam.",
+    "users": [
+      {
+        "id": 1,
+        "first_name": "D'angelo",
+        "last_name": "Stiedemann",
+        "email": "philip.ruel@bogisichjones.org",
+        "yelp_id": "oe0kwhdq416wb4ci"
+      },
+      {
+        "id": 2,
+        "first_name": "Garfield",
+        "last_name": "Farrell",
+        "email": "dax@moriette.info",
+        "yelp_id": "fzgiwbd6j89i0q11"
+      },
+      {
+        "id": 4,
+        "first_name": "Schuyler",
+        "last_name": "Veum",
+        "email": "emelie@dickenscollins.com",
+        "yelp_id": "7rtka2lt3teybr63"
+      },
+      {
+        "id": 6,
+        "first_name": "Kenny",
+        "last_name": "Fadel",
+        "email": "kenya@watsicadickinson.info",
+        "yelp_id": "ognp7n2zg4jkbtv9"
+      },
+      {
+        "id": 33,
+        "first_name": "Hester",
+        "last_name": "Jones",
+        "email": "martina@howell.net",
+        "yelp_id": "rswxr8ap9h63oo3u"
+      },
+      {
+        "id": 35,
+        "first_name": "Martin",
+        "last_name": "Senger",
+        "email": "georgette_turcotte@davisquitzon.biz",
+        "yelp_id": "elolzxqriwsmf0ah"
+      },
+      {
+        "id": 39,
+        "first_name": "Sherwood",
+        "last_name": "Schimmel",
+        "email": "roxane@douglas.info",
+        "yelp_id": "vi32bhsekxmqr4r5"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Trippledex Fusion",
+    "genre": "Fusion",
+    "twitter_handle": "@Trippledex FusionFusion",
+    "yelp_id": "puim9leacxfpoaoq",
+    "yelp_ratings": "5",
+    "tweet_most_recent": "Quis consectetur voluptatum mollitia nostrum dolore et qui libero.",
+    "users": [
+      {
+        "id": 2,
+        "first_name": "Garfield",
+        "last_name": "Farrell",
+        "email": "dax@moriette.info",
+        "yelp_id": "fzgiwbd6j89i0q11"
+      },
+      {
+        "id": 10,
+        "first_name": "Adolfo",
+        "last_name": "Swift",
+        "email": "kendra.kemmer@flatley.biz",
+        "yelp_id": "pn5k6s6v024opxn5"
+      },
+      {
+        "id": 13,
+        "first_name": "Abagail",
+        "last_name": "Jacobi",
+        "email": "caandra@fadelstamm.org",
+        "yelp_id": "orr59julav8gd4w1"
+      },
+      {
+        "id": 24,
+        "first_name": "Omari",
+        "last_name": "Lind",
+        "email": "breanne.hettinger@kshlerinmcdermott.com",
+        "yelp_id": "ipbvqqtljco04e9k"
+      },
+      {
+        "id": 25,
+        "first_name": "Mary",
+        "last_name": "O'Kon",
+        "email": "nora@mraz.net",
+        "yelp_id": "6qzc70e017p69dy5"
+      },
+      {
+        "id": 28,
+        "first_name": "Sheila",
+        "last_name": "Kub",
+        "email": "alexa@waters.com",
+        "yelp_id": "kcmlhobpd8srma1b"
+      },
+      {
+        "id": 31,
+        "first_name": "Ralph",
+        "last_name": "Ratke",
+        "email": "hermina@rogahn.org",
+        "yelp_id": "86bafdpdmaucqewl"
+      },
+      {
+        "id": 32,
+        "first_name": "Skylar",
+        "last_name": "Gleason",
+        "email": "ralph.olson@cormier.name",
+        "yelp_id": "edcmy9c2a73aj2n0"
+      },
+      {
+        "id": 35,
+        "first_name": "Martin",
+        "last_name": "Senger",
+        "email": "georgette_turcotte@davisquitzon.biz",
+        "yelp_id": "elolzxqriwsmf0ah"
+      },
+      {
+        "id": 39,
+        "first_name": "Sherwood",
+        "last_name": "Schimmel",
+        "email": "roxane@douglas.info",
+        "yelp_id": "vi32bhsekxmqr4r5"
+      },
+      {
+        "id": 42,
+        "first_name": "Orin",
+        "last_name": "Schulist",
+        "email": "danny.halvorson@walshzboncak.net",
+        "yelp_id": "4fk2opqdw76tu3ro"
+      },
+      {
+        "id": 44,
+        "first_name": "Giovanna",
+        "last_name": "Hettinger",
+        "email": "lera_funk@skiles.name",
+        "yelp_id": "eviwvnnij0ina49e"
+      },
+      {
+        "id": 46,
+        "first_name": "Felton",
+        "last_name": "Collins",
+        "email": "kiara@bauchconnelly.org",
+        "yelp_id": "3bwabu2elj8jodft"
+      },
+      {
+        "id": 50,
+        "first_name": "Valentina",
+        "last_name": "O'Keefe",
+        "email": "hank@padbergkuhlman.com",
+        "yelp_id": "t4x2y6h76x6vylji"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Rank Seafood",
+    "genre": "Seafood",
+    "twitter_handle": "@Rank SeafoodSeafood",
+    "yelp_id": "mff03inzs2wo2zip",
+    "yelp_ratings": "4",
+    "tweet_most_recent": "Beatae accusantium non ut qui dolor corrupti quibusdam.",
+    "users": [
+      {
+        "id": 1,
+        "first_name": "D'angelo",
+        "last_name": "Stiedemann",
+        "email": "philip.ruel@bogisichjones.org",
+        "yelp_id": "oe0kwhdq416wb4ci"
+      },
+      {
+        "id": 3,
+        "first_name": "Bruce",
+        "last_name": "Carroll",
+        "email": "jodie@sporer.org",
+        "yelp_id": "tddu54uhea62a12q"
+      },
+      {
+        "id": 4,
+        "first_name": "Schuyler",
+        "last_name": "Veum",
+        "email": "emelie@dickenscollins.com",
+        "yelp_id": "7rtka2lt3teybr63"
+      },
+      {
+        "id": 14,
+        "first_name": "Odell",
+        "last_name": "Wilderman",
+        "email": "general_murazik@roberts.biz",
+        "yelp_id": "jldrk76y032t75kc"
+      },
+      {
+        "id": 15,
+        "first_name": "Sierra",
+        "last_name": "Schiller",
+        "email": "tyrell.mcdermott@bogisich.name",
+        "yelp_id": "9jeiv0htcvdl2171"
+      },
+      {
+        "id": 27,
+        "first_name": "Lucienne",
+        "last_name": "Tremblay",
+        "email": "marilou_erdman@pacochaankunding.net",
+        "yelp_id": "tjb57zr91xq6ql36"
+      },
+      {
+        "id": 28,
+        "first_name": "Sheila",
+        "last_name": "Kub",
+        "email": "alexa@waters.com",
+        "yelp_id": "kcmlhobpd8srma1b"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Zontrax Korean",
+    "genre": "Korean",
+    "twitter_handle": "@Zontrax KoreanKorean",
+    "yelp_id": "obp2oi8zb627os0f",
+    "yelp_ratings": "3",
+    "tweet_most_recent": "Incidunt ex ut totam eos eius porro.",
+    "users": [
+      {
+        "id": 10,
+        "first_name": "Adolfo",
+        "last_name": "Swift",
+        "email": "kendra.kemmer@flatley.biz",
+        "yelp_id": "pn5k6s6v024opxn5"
+      },
+      {
+        "id": 13,
+        "first_name": "Abagail",
+        "last_name": "Jacobi",
+        "email": "caandra@fadelstamm.org",
+        "yelp_id": "orr59julav8gd4w1"
+      },
+      {
+        "id": 31,
+        "first_name": "Ralph",
+        "last_name": "Ratke",
+        "email": "hermina@rogahn.org",
+        "yelp_id": "86bafdpdmaucqewl"
+      },
+      {
+        "id": 32,
+        "first_name": "Skylar",
+        "last_name": "Gleason",
+        "email": "ralph.olson@cormier.name",
+        "yelp_id": "edcmy9c2a73aj2n0"
+      },
+      {
+        "id": 36,
+        "first_name": "Della",
+        "last_name": "Bosco",
+        "email": "kari_greenfelder@mayertschoen.info",
+        "yelp_id": "7f27cjvjpa82sy7r"
+      },
+      {
+        "id": 43,
+        "first_name": "Garth",
+        "last_name": "Williamson",
+        "email": "carleton@reichelhoeger.net",
+        "yelp_id": "3jd2deomeh3h0ihl"
+      },
+      {
+        "id": 45,
+        "first_name": "Makenzie",
+        "last_name": "Langworth",
+        "email": "graham.purdy@stiedemannerdman.name",
+        "yelp_id": "z24ewyr9blw7t58u"
+      },
+      {
+        "id": 47,
+        "first_name": "Sheridan",
+        "last_name": "Lockman",
+        "email": "arielle@schuppe.org",
+        "yelp_id": "l47nodmkobcbsmwc"
+      },
+      {
+        "id": 49,
+        "first_name": "Erica",
+        "last_name": "Block",
+        "email": "willard.kiehn@marvin.org",
+        "yelp_id": "ctzf20lnfpxsyry6"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Lotstring Vegan",
+    "genre": "Vegan",
+    "twitter_handle": "@Lotstring VeganVegan",
+    "yelp_id": "jkg7r4vmssuod4u2",
+    "yelp_ratings": "3",
+    "tweet_most_recent": "Modi ea eum eius.",
+    "users": [
+      {
+        "id": 4,
+        "first_name": "Schuyler",
+        "last_name": "Veum",
+        "email": "emelie@dickenscollins.com",
+        "yelp_id": "7rtka2lt3teybr63"
+      },
+      {
+        "id": 13,
+        "first_name": "Abagail",
+        "last_name": "Jacobi",
+        "email": "caandra@fadelstamm.org",
+        "yelp_id": "orr59julav8gd4w1"
+      },
+      {
+        "id": 35,
+        "first_name": "Martin",
+        "last_name": "Senger",
+        "email": "georgette_turcotte@davisquitzon.biz",
+        "yelp_id": "elolzxqriwsmf0ah"
+      },
+      {
+        "id": 41,
+        "first_name": "Peyton",
+        "last_name": "Price",
+        "email": "mable@quigleywehner.biz",
+        "yelp_id": "dios7q1zkj0fxafo"
+      },
+      {
+        "id": 49,
+        "first_name": "Erica",
+        "last_name": "Block",
+        "email": "willard.kiehn@marvin.org",
+        "yelp_id": "ctzf20lnfpxsyry6"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Hatity Seafood",
+    "genre": "Seafood",
+    "twitter_handle": "@Hatity SeafoodSeafood",
+    "yelp_id": "30hltjuaggz8l9yc",
+    "yelp_ratings": "2",
+    "tweet_most_recent": "Qui totam numquam accusamus magni aliquid molestiae asperiores.",
+    "users": [
+      {
+        "id": 6,
+        "first_name": "Kenny",
+        "last_name": "Fadel",
+        "email": "kenya@watsicadickinson.info",
+        "yelp_id": "ognp7n2zg4jkbtv9"
+      },
+      {
+        "id": 9,
+        "first_name": "Ines",
+        "last_name": "Pagac",
+        "email": "miguel.baumbach@langoshschuppe.org",
+        "yelp_id": "a2mrg4gv8t20jgcc"
+      },
+      {
+        "id": 12,
+        "first_name": "Dena",
+        "last_name": "Ward",
+        "email": "mallie@corkery.name",
+        "yelp_id": "8zjpfepa2m8d8izk"
+      },
+      {
+        "id": 16,
+        "first_name": "Chet",
+        "last_name": "Beier",
+        "email": "stephany_bauch@rippin.name",
+        "yelp_id": "uzpemk0az8awl1hj"
+      },
+      {
+        "id": 16,
+        "first_name": "Chet",
+        "last_name": "Beier",
+        "email": "stephany_bauch@rippin.name",
+        "yelp_id": "uzpemk0az8awl1hj"
+      },
+      {
+        "id": 30,
+        "first_name": "Linda",
+        "last_name": "Paucek",
+        "email": "stephan@oreilly.info",
+        "yelp_id": "8x6noat3tfng09jm"
+      },
+      {
+        "id": 32,
+        "first_name": "Skylar",
+        "last_name": "Gleason",
+        "email": "ralph.olson@cormier.name",
+        "yelp_id": "edcmy9c2a73aj2n0"
+      },
+      {
+        "id": 50,
+        "first_name": "Valentina",
+        "last_name": "O'Keefe",
+        "email": "hank@padbergkuhlman.com",
+        "yelp_id": "t4x2y6h76x6vylji"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Tampflex Barbeque",
+    "genre": "Barbeque",
+    "twitter_handle": "@Tampflex BarbequeBarbeque",
+    "yelp_id": "ee6grvc05at4wlu2",
+    "yelp_ratings": "4",
+    "tweet_most_recent": "Molestias omnis tenetur sit ut reprehenderit ut.",
+    "users": [
+      {
+        "id": 45,
+        "first_name": "Makenzie",
+        "last_name": "Langworth",
+        "email": "graham.purdy@stiedemannerdman.name",
+        "yelp_id": "z24ewyr9blw7t58u"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Sonair Barbeque",
+    "genre": "Barbeque",
+    "twitter_handle": "@Sonair BarbequeBarbeque",
+    "yelp_id": "cj9a4i6bagula087",
+    "yelp_ratings": "2",
+    "tweet_most_recent": "Dolores ipsum accusamus quibusdam quo qui vero recusandae.",
+    "users": [
+      {
+        "id": 36,
+        "first_name": "Della",
+        "last_name": "Bosco",
+        "email": "kari_greenfelder@mayertschoen.info",
+        "yelp_id": "7f27cjvjpa82sy7r"
+      },
+      {
+        "id": 42,
+        "first_name": "Orin",
+        "last_name": "Schulist",
+        "email": "danny.halvorson@walshzboncak.net",
+        "yelp_id": "4fk2opqdw76tu3ro"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Alpha Vegan",
+    "genre": "Vegan",
+    "twitter_handle": "@Alpha VeganVegan",
+    "yelp_id": "r0r7ogar7v7r1flg",
+    "yelp_ratings": "5",
+    "tweet_most_recent": "Qui ut quia consequatur error perspiciatis numquam.",
+    "users": [
+      {
+        "id": 9,
+        "first_name": "Ines",
+        "last_name": "Pagac",
+        "email": "miguel.baumbach@langoshschuppe.org",
+        "yelp_id": "a2mrg4gv8t20jgcc"
+      },
+      {
+        "id": 10,
+        "first_name": "Adolfo",
+        "last_name": "Swift",
+        "email": "kendra.kemmer@flatley.biz",
+        "yelp_id": "pn5k6s6v024opxn5"
+      },
+      {
+        "id": 28,
+        "first_name": "Sheila",
+        "last_name": "Kub",
+        "email": "alexa@waters.com",
+        "yelp_id": "kcmlhobpd8srma1b"
+      },
+      {
+        "id": 33,
+        "first_name": "Hester",
+        "last_name": "Jones",
+        "email": "martina@howell.net",
+        "yelp_id": "rswxr8ap9h63oo3u"
+      },
+      {
+        "id": 37,
+        "first_name": "Easter",
+        "last_name": "Bartell",
+        "email": "mazie.mertz@emardnolan.net",
+        "yelp_id": "fjw42ih8rqvs1fkz"
+      },
+      {
+        "id": 39,
+        "first_name": "Sherwood",
+        "last_name": "Schimmel",
+        "email": "roxane@douglas.info",
+        "yelp_id": "vi32bhsekxmqr4r5"
+      },
+      {
+        "id": 40,
+        "first_name": "Morris",
+        "last_name": "O'Connell",
+        "email": "susana_purdy@deckowmohr.info",
+        "yelp_id": "4ofyxxp4u0uqzzfv"
+      },
+      {
+        "id": 41,
+        "first_name": "Peyton",
+        "last_name": "Price",
+        "email": "mable@quigleywehner.biz",
+        "yelp_id": "dios7q1zkj0fxafo"
+      },
+      {
+        "id": 42,
+        "first_name": "Orin",
+        "last_name": "Schulist",
+        "email": "danny.halvorson@walshzboncak.net",
+        "yelp_id": "4fk2opqdw76tu3ro"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Tempsoft Seafood",
+    "genre": "Seafood",
+    "twitter_handle": "@Tempsoft SeafoodSeafood",
+    "yelp_id": "lpoiti17mhx6zuix",
+    "yelp_ratings": "4",
+    "tweet_most_recent": "Exercitationem soluta ut et autem veritatis non.",
+    "users": [
+      {
+        "id": 5,
+        "first_name": "Roderick",
+        "last_name": "Reilly",
+        "email": "mohamed.wilkinson@mohr.net",
+        "yelp_id": "ksivprvnzk4dfzk6"
+      },
+      {
+        "id": 9,
+        "first_name": "Ines",
+        "last_name": "Pagac",
+        "email": "miguel.baumbach@langoshschuppe.org",
+        "yelp_id": "a2mrg4gv8t20jgcc"
+      },
+      {
+        "id": 9,
+        "first_name": "Ines",
+        "last_name": "Pagac",
+        "email": "miguel.baumbach@langoshschuppe.org",
+        "yelp_id": "a2mrg4gv8t20jgcc"
+      },
+      {
+        "id": 12,
+        "first_name": "Dena",
+        "last_name": "Ward",
+        "email": "mallie@corkery.name",
+        "yelp_id": "8zjpfepa2m8d8izk"
+      },
+      {
+        "id": 21,
+        "first_name": "Jordyn",
+        "last_name": "Schowalter",
+        "email": "alexander@strosin.info",
+        "yelp_id": "g0kyy0hi02qvd05f"
+      },
+      {
+        "id": 39,
+        "first_name": "Sherwood",
+        "last_name": "Schimmel",
+        "email": "roxane@douglas.info",
+        "yelp_id": "vi32bhsekxmqr4r5"
+      },
+      {
+        "id": 41,
+        "first_name": "Peyton",
+        "last_name": "Price",
+        "email": "mable@quigleywehner.biz",
+        "yelp_id": "dios7q1zkj0fxafo"
+      },
+      {
+        "id": 42,
+        "first_name": "Orin",
+        "last_name": "Schulist",
+        "email": "danny.halvorson@walshzboncak.net",
+        "yelp_id": "4fk2opqdw76tu3ro"
+      },
+      {
+        "id": 50,
+        "first_name": "Valentina",
+        "last_name": "O'Keefe",
+        "email": "hank@padbergkuhlman.com",
+        "yelp_id": "t4x2y6h76x6vylji"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Holdlamis Seafood",
+    "genre": "Seafood",
+    "twitter_handle": "@Holdlamis SeafoodSeafood",
+    "yelp_id": "c2qg3c4bbdpxdoa6",
+    "yelp_ratings": "4",
+    "tweet_most_recent": "Quia et molestiae dolorem nihil officiis et.",
+    "users": [
+      {
+        "id": 25,
+        "first_name": "Mary",
+        "last_name": "O'Kon",
+        "email": "nora@mraz.net",
+        "yelp_id": "6qzc70e017p69dy5"
+      },
+      {
+        "id": 30,
+        "first_name": "Linda",
+        "last_name": "Paucek",
+        "email": "stephan@oreilly.info",
+        "yelp_id": "8x6noat3tfng09jm"
+      },
+      {
+        "id": 31,
+        "first_name": "Ralph",
+        "last_name": "Ratke",
+        "email": "hermina@rogahn.org",
+        "yelp_id": "86bafdpdmaucqewl"
+      },
+      {
+        "id": 43,
+        "first_name": "Garth",
+        "last_name": "Williamson",
+        "email": "carleton@reichelhoeger.net",
+        "yelp_id": "3jd2deomeh3h0ihl"
+      },
+      {
+        "id": 49,
+        "first_name": "Erica",
+        "last_name": "Block",
+        "email": "willard.kiehn@marvin.org",
+        "yelp_id": "ctzf20lnfpxsyry6"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Zathin Fusion",
+    "genre": "Fusion",
+    "twitter_handle": "@Zathin FusionFusion",
+    "yelp_id": "smq02scuiyzkcbi2",
+    "yelp_ratings": "4",
+    "tweet_most_recent": "Iusto error corrupti sequi.",
+    "users": [
+      {
+        "id": 8,
+        "first_name": "Chaim",
+        "last_name": "Ankunding",
+        "email": "mercedes@flatley.biz",
+        "yelp_id": "s1aq2622n7nicy5r"
+      },
+      {
+        "id": 18,
+        "first_name": "Tracy",
+        "last_name": "Boehm",
+        "email": "alfreda@cummingsgreen.info",
+        "yelp_id": "6t386zq53iotbqtx"
+      },
+      {
+        "id": 38,
+        "first_name": "Cora",
+        "last_name": "Leffler",
+        "email": "pat.keeling@ruelkuphal.com",
+        "yelp_id": "4v7lihun3kqsm84w"
+      },
+      {
+        "id": 41,
+        "first_name": "Peyton",
+        "last_name": "Price",
+        "email": "mable@quigleywehner.biz",
+        "yelp_id": "dios7q1zkj0fxafo"
+      },
+      {
+        "id": 41,
+        "first_name": "Peyton",
+        "last_name": "Price",
+        "email": "mable@quigleywehner.biz",
+        "yelp_id": "dios7q1zkj0fxafo"
+      },
+      {
+        "id": 47,
+        "first_name": "Sheridan",
+        "last_name": "Lockman",
+        "email": "arielle@schuppe.org",
+        "yelp_id": "l47nodmkobcbsmwc"
+      }
+    ]
+  }
+];

@@ -114,11 +114,12 @@ ul.connection.hidden {
 }
 
     </style>
-</head>
+</head> 
 <body>
     <div id='container'>
         <div id='graph'></div>
         <div id='notes'></div>
+        <h2><%= link_to "User's Favorites", "/force06", class: 'button' %></h2>
     </div>
     <script src='http://d3js.org/d3.v3.min.js'></script>
     <script>
@@ -127,8 +128,8 @@ ul.connection.hidden {
 // a size that's convenient for displaying the graphic on
 // http://jsDataV.is
 
-var width = 1440,
-    height = 1480;
+var width = 440,
+    height = 480;
 
 // Visual properties of the graph are next. We need to make
 // those that are going to be animated accessible to the
@@ -138,8 +139,8 @@ var labelFill = '#444';
 var adjLabelFill = '#aaa';
 var edgeStroke = '#aaa';
 var nodeFill = '#ccc';
-var nodeRadius = 10;
-var selectedNodeRadius = 30;
+var nodeRadius = 15;
+var selectedNodeRadius = 45;
 
 var linkDistance = Math.min(width,height)/4;
 
@@ -152,7 +153,8 @@ var graph = d3.select('#graph');
 
 var svg = graph.append('svg')
     .attr('width', width)
-    .attr('height', height);
+    .attr('height', height)
+    .style('background-color', "darkgrey");
 
 // Select the container for the notes and dimension it.
 
@@ -221,415 +223,12 @@ var positionLabelText = function(text, pseudonode, fillColor) {
     select.attr('transform', 'translate(' + shiftX + ',' + shiftY + ')');
 };
 
-//
-  // node.append("image")
-  //     .attr("xlink:href", "https://github.com/favicon.ico")
-  //     .attr("x", -8)
-  //     .attr("y", -8)
-  //     .attr("width", 16)
-  //     .attr("height", 16);
 // Define the data.
 
-data = [
-  {
-    "artist": "Mexican",
-    "title": "El Chato Taco Truck",
-    "itunes": "http://www.yelp.com/biz/el-chato-taco-truck-los-angeles-2?osq=Best+Food+Trucks",
-    "cover": "http://s3-media4.fl.yelpcdn.com/bphoto/QIdf1p6VwAciOmx4ZZqWuA/l.jpg",
-    "color": "#47738C",
-    "text": "#0A0606",
-    "musicians": [
-      "@yelp_id 01",
-      "@yelp_id 02",
-      "@yelp_id 03",
-      "@yelp_id 04",
-      "@yelp_id 05",
-      "@yelp_id 06"
-    ]
-  },{
-    "artist": "American",
-    "title": "The Lobos Truck",
-    "itunes": "http://www.thelobostruck.com/",
-    "cover": "http://s3-media1.fl.yelpcdn.com/bphoto/zpTqI1oGw6y8_sbzoZEtAg/o.jpg",
-    "color": "#747C7B",
-    "text": "#343437",
-    "musicians": [
-      "@yelp_id 04",
-      "@yelp_id 07",
-      "@yelp_id 08",
-      "@yelp_id 09"
-    ]
-  },{
-    "artist": "Seafood",
-    "title": "Lobsta Truck",
-    "itunes": "http://la.lobstatruck.com/",
-    "cover": "http://a5.mzstatic.com/us/r30/Music/fc/10/e4/mzi.nxyspvyl.170x170-75.jpg",
-    "color": "#42578E",
-    "text": "#D57130",
-    "musicians": [
-      "@yelp_id 10",
-      "@yelp_id 11",
-      "@yelp_id 12",
-      "@yelp_id 13"
-    ]
-  },{
-    "artist": "BBQ",
-    "title": "Burnt to a Crisp",
-    "itunes": "http://www.burnttoacrisptxsmokehouse.com/",
-    "cover": "http://a2.mzstatic.com/us/r30/Features/e5/43/3b/dj.kzeqdddm.170x170-75.jpg",
-    "color": "#D06B2F",
-    "text": "#2F4051",
-    "musicians": [
-      "@yelp_id 14",
-      "@yelp_id 15",
-      "@yelp_id 16",
-      "@yelp_id 17",
-      "@yelp_id 18",
-      "@yelp_id 19",
-      "@yelp_id 20",
-      "@yelp_id 21",
-      "@yelp_id 22",
-      "@yelp_id 23",
-      "@yelp_id 24",
-      "@yelp_id 25",
-      "@yelp_id 26",
-      "@yelp_id 27",
-      "@yelp_id 28",
-      "@yelp_id 29"
-    ]
-  },{
-    "artist": "Sandwiches",
-    "title": "Get Toasted",
-    "itunes": "http://gettoastedtruck.com/",
-    "cover": "http://a5.mzstatic.com/us/r30/Features/e7/f0/51/dj.suakypmw.170x170-75.jpg",
-    "color": "#B03239",
-    "text": "#191A18",
-    "musicians": [
-      "@yelp_id 30",
-      "@yelp_id 31",
-      "@yelp_id 32",
-      "@yelp_id 33",
-      "@yelp_id 34"
-    ]
-  },{
-    "artist": "Cajun/Creole",
-    "title": "Ragin Cajun On Wheels",
-    "itunes": "http://www.ragincajun.com/",
-    "cover": "http://a2.mzstatic.com/us/r30/Music/54/10/9d/mzi.tzqujtgu.170x170-75.jpg",
-    "color": "#B08865",
-    "text": "#483830",
-    "musicians": [
-      "Lil Hardin Armstrong",
-      "Louis Armstrong",
-      "Clarence Babcock",
-      "Pete Briggs",
-      "Mancy Carr",
-      "Baby Dodds",
-      "Johnny Dodds",
-      "Earl Hines",
-      "Kid Ory",
-      "Don Redman",
-      "Fred Robinson",
-      "Zutty Singleton",
-      "Johnny St. Cyr",
-      "Jimmy Strong",
-      "John Thomas",
-      "Dave Wilborn"
-    ]
-  },{
-    "artist": "Japanese, Hot Dogs",
-    "title": "Tokyo Doggie Style",
-    "itunes": "http://tokyodoggiestyle.com/",
-    "cover": "http://a5.mzstatic.com/us/r30/Music4/v4/4f/fe/d8/4ffed84e-8865-22b9-7a8e-ac1eaa07a542/00724359692456.170x170-75.jpg",
-    "color": "#0C7F90",
-    "text": "#041E1F",
-    "musicians": [
-      "@yelp_id 02",
-      "@yelp_id 04",
-      "@yelp_id 35",
-      "@yelp_id 36",
-      "@yelp_id 37",
-      "@yelp_id 37"
-    ]
-  },{
-    "artist": "Comfort Food",
-    "title": "The Grilled Cheese Truck",
-    "itunes": "http://www.thegrilledcheesetruck.com/",
-    "cover": "http://a3.mzstatic.com/us/r30/Features/b2/47/50/dj.qizgqbsb.170x170-75.jpg",
-    "color": "#ED8C42",
-    "text": "#24231B",
-    "musicians": [
-      "@yelp_id 38",
-      "@yelp_id 39",
-      "@yelp_id 40",
-      "@yelp_id 41",
-      "@yelp_id 42",
-      "@yelp_id 43"
-    ]
-  },{
-    "artist": "Korean, Hot Dogs",
-    "title": "Seoul Sausage",
-    "itunes": "http://www.seoulsausage.com/",
-    "cover": "http://a2.mzstatic.com/us/r30/Music/85/f3/ef/mzi.lugdrvxc.170x170-75.jpg",
-    "color": "#B07B89",
-    "text": "#28282C",
-    "musicians": [
-      "@yelp_id 44",
-      "@yelp_id 45",
-      "@yelp_id 46",
-      "@yelp_id 47",
-      "@yelp_id 48",
-      "@yelp_id 31",
-      "@yelp_id 49",
-      "@yelp_id 50"
-    ]
-  },{
-    "artist": "Asian Fusion",
-    "title": "Arroy Food Truck",
-    "itunes": "http://www.yelp.com/biz/arroy-food-truck-los-angeles?osq=Best+Food+Trucks",
-    "cover": "http://a4.mzstatic.com/us/r30/Music/38/50/49/mzi.trcydnrm.170x170-75.jpg",
-    "color": "#6B548B",
-    "text": "#2A231F",
-    "musicians": [
-     "@yelp_id 51",
-      "@yelp_id 52",
-      "@yelp_id 53"
-    ]
-  },{
-    "artist": "Mexican",
-    "title": "Leo's Taco Truck",
-    "itunes": "http://www.yelp.com/biz/leos-taco-truck-los-angeles-2?osq=Best+Food+Trucks",
-    "cover": "http://a5.mzstatic.com/us/r30/Features/v4/2c/a0/0c/2ca00caf-3889-59a9-c927-86011f9e8aab/dj.ibkxnerg.170x170-75.jpg",
-    "color": "#649B9E",
-    "text": "#212B30",
-    "musicians": [
-      "@yelp_id 54",
-      "@yelp_id 55",
-      "@yelp_id 56",
-      "@yelp_id 57",
-      "@yelp_id 05",
-      "@yelp_id 58",
-      "@yelp_id 59",
-      "@yelp_id 60",
-      "@yelp_id 61",
-      "@yelp_id 62",
-      "@yelp_id 63",
-      "@yelp_id 64",
-      "@yelp_id 65",
-      "@yelp_id 66",
-      "@yelp_id 67"
-    ]
-  },{
-    "artist": "Burgers, Filipino",
-    "title": "Curbside Cravings",
-    "itunes": "http://www.curbsidecraving.com/",
-    "cover": "http://a5.mzstatic.com/us/r30/Features/9c/45/92/dj.lhsjunju.170x170-75.jpg",
-    "color": "#32ADF1",
-    "text": "#0D1D27",
-    "musicians": [
-      "@yelp_id 68",
-      "@yelp_id 69",
-      "@yelp_id 34",
-      "@yelp_id 70"
-    ]
-  },{
-    "artist": "Korean, Mexican, Barbeque",
-    "title": "Kogi BBQ",
-    "itunes": "http://kogibbq.com/",
-    "cover": "http://a3.mzstatic.com/us/r30/Music/v4/a4/9e/d9/a49ed936-5c20-2e6b-fbc4-246006bdcbce/00724349532458.170x170-75.jpg",
-    "color": "#C3A550",
-    "text": "#161A11",
-    "musicians": [
-      "@yelp_id 71",
-      "@yelp_id 37",
-      "@yelp_id 72",
-      "@yelp_id 73",
-      "@yelp_id 74"
-    ]
-  },{
-    "artist": "Mexican",
-    "title": "Nacho's Tacos Y Tortas",
-    "itunes": "http://www.yelp.com/biz/nachos-tacos-y-tortas-los-angeles-2?osq=Best+Food+Trucks",
-    "cover": "http://a3.mzstatic.com/us/r30/Features/8f/65/0e/dj.wlajviuz.170x170-75.jpg",
-    "color": "#DB6C39",
-    "text": "#120C19",
-    "musicians": [
-      "@yelp_id 75",
-      "@yelp_id 76",
-      "@yelp_id 77",
-      "@yelp_id 78",
-      "@yelp_id 34"
-    ]
-  },{
-    "artist": "Mexican",
-    "title": "Taco Zone Truck",
-    "itunes": "http://www.yelp.com/biz/taco-zone-truck-los-angeles?osq=Best+Food+Trucks",
-    "cover": "http://a3.mzstatic.com/us/r30/Music/v4/16/97/61/16976189-228e-5fb8-16e3-f2aa8ae09590/00094633517356.170x170-75.jpg",
-    "color": "#A2444C",
-    "text": "#49637B",
-    "musicians": [
-      "@yelp_id 79",
-      "@yelp_id 04",
-      "@yelp_id 80",
-      "@yelp_id 81"
-    ]
-  },{
-    "artist": "Asian Fusion",
-    "title": "Komodo Cafe",
-    "itunes":"http://komodofood.com/cafe",
-    "cover": "http://a3.mzstatic.com/us/r30/Music6/v4/ec/1b/a3/ec1ba39e-d279-8ead-f460-58206f973ebf/00724349534353.170x170-75.jpg",
-    "color": "#3D97C5",
-    "text": "#152D45",
-    "musicians": [
-      "@yelp_id 71",
-      "@yelp_id 02",
-      "@yelp_id 82",
-      "@yelp_id 83"
-    ]
-  },{
-    "artist": "Mexican",
-    "title": "El Paisano",
-    "itunes": "http://www.yelp.com/biz/el-paisano-los-angeles?osq=Best+Food+Trucks",
-    "cover": "http://a5.mzstatic.com/us/r30/Music4/v4/2d/aa/d7/2daad774-8979-0bad-01d0-fd40936cded1/05099972196250.170x170-75.jpg",
-    "color": "#3C838D",
-    "text": "#020C09",
-    "musicians": [
-      "@yelp_id 01",
-      "@yelp_id 71",
-      "@yelp_id 05",
-      "@yelp_id 84",
-      "@yelp_id 85"
-    ]
-  },{
-    "artist": "Asian Fusion",
-    "title": "Jogasaki Truck",
-    "itunes": "http://www.jogasakiburrito.com/",
-    "cover": "http://a5.mzstatic.com/us/r30/Music4/v4/c6/bd/7f/c6bd7fd6-7693-7dd0-9740-cdb564455673/05099963651157.170x170-75.jpg",
-    "color": "#10507E",
-    "text": "#06111F",
-    "musicians": [
-      "@yelp_id 86",
-      "@yelp_id 87",
-      "@yelp_id 88",
-      "@yelp_id 08",
-      "@yelp_id 64"
-    ]
-  },{
-    "artist": "American",
-    "title": "Street Food Cinema",
-    "itunes": "http://www.streetfoodcinema.com/",
-    "cover": "http://a1.mzstatic.com/us/r30/Music/v4/c5/47/19/c5471971-aed3-b477-1340-e246068e2388/00724353011758.170x170-75.jpg",
-    "color": "#B23035",
-    "text": "#1E1A1E",
-    "musicians": [
-      "@yelp_id 89",
-      "@yelp_id 90",
-      "@yelp_id 91",
-      "@yelp_id 92",
-      "@yelp_id 05",
-      "@yelp_id 93",
-      "@yelp_id 94",
-      "@yelp_id 95",
-      "@yelp_id 96",
-      "@yelp_id 97",
-      "@yelp_id 98",
-      "@yelp_id 99",
-      "@yelp_id 34",
-      "@yelp_id 100",
-      "@yelp_id 101",
-      "@yelp_id 102",
-      "@yelp_id 103"
-    ]
-  },{
-    "artist": "Desserts",
-    "title": "Waffles de Liege",
-    "itunes": "http://www.wafflesdeliege.com/",
-    "cover": "http://a4.mzstatic.com/us/r30/Music/v4/c6/d1/7e/c6d17eaf-9e4c-d4fc-6253-c0f21a202585/05099963651454.170x170-75.jpg",
-    "color": "#B4CA68",
-    "text": "#0F404D",
-    "musicians": [
-      "@yelp_id 86",
-      "@yelp_id 104",
-      "@yelp_id 87",
-      "@yelp_id 88",
-      "@yelp_id 104"
-    ]
-  },{
-    "artist": "Southern",
-    "title": "Peaches' Smokehouse & Southern Kitchen",
-    "itunes": "http://www.peachestruck.com/",
-    "cover": "http://a4.mzstatic.com/us/r30/Features/bc/4e/6c/dj.ajuwwbjm.170x170-75.jpg",
-    "color": "#761826",
-    "text": "#322431",
-    "musicians": [
-      "Colin Bailey",
-      "Monty Budwig",
-      "Vince Guaraldi"
-    ]
-  },{
-    "artist": "Seafood, Hawaiian",
-    "title": "The Pokey Truck",
-    "itunes": "http://www.thepokeytruck.com/",
-    "cover": "http://a2.mzstatic.com/us/r30/Music/v4/b2/84/55/b2845520-816f-4531-2ff9-75faa3f0473c/05099963652253.170x170-75.jpg",
-    "color": "#84C2DD",
-    "text": "#172F33",
-    "musicians": [
-      "Richard Davis",
-      "@yelp_id 106",
-      "@yelp_id 88",
-      "Bobby Hutcherson",
-      "@yelp_id 104"
-    ]
-  }, {
-    "artist": "Burgers",
-    "title": "Son of a Bun",
-    "itunes": "http://www.eatsonofabun.com/",
-    "cover": "http://a4.mzstatic.com/us/r30/Features/b6/bc/02/dj.ijqtqnth.170x170-75.jpg",
-    "color": "#C56A46",
-    "text": "#303969",
-    "musicians": [
-      "@yelp_id 105",
-      "@yelp_id 02",
-      "@yelp_id 106",
-      "@yelp_id 06",
-      "@yelp_id 107",
-      "@yelp_id 88",
-      "@yelp_id 108"
-    ]
-  },{
-    "artist": "Greek",
-    "title": "Good Greek Grub",
-    "itunes": "http://www.yelp.com/biz/good-greek-grub-los-angeles-2?osq=Best+Food+Trucks",
-    "cover": "http://a1.mzstatic.com/us/r30/Music4/v4/ad/42/18/ad4218a3-b877-2eca-c144-51908649b166/05099993409957.170x170-75.jpg",
-    "color": "#EF5437",
-    "text": "#31474D",
-    "musicians": [
-      "@yelp_id 109",
-      "@yelp_id 110",
-      "@yelp_id 111",
-      "@yelp_id 112"
-    ]
-  },{
-    "artist": "Asian Fusion",
-    "title": "Komodo Truck",
-    "itunes": "http://komodofood.com/truck/",
-    "cover": "http://a5.mzstatic.com/us/r30/Music/y2004/m06/d08/h09/s06.oyswffkb.170x170-75.jpg",
-    "color": "#29AFDD",
-    "text": "#203230",
-    "musicians": [
-      "@yelp_id 113",
-      "@yelp_id 75",
-      "@yelp_id 107",
-      "@yelp_id 114",
-      "@yelp_id 115",
-      "@yelp_id 116",
-      "@yelp_id 117",
-      "@yelp_id 118",
-      "@yelp_id 119"
-    ]
-  }
-];
+// data brought in from external source
 
+data = [{"id":1,"name":"Stim Seafood","color":"lightblue","genre":"Seafood","twitter_handle":"@Stim SeafoodSeafood","yelp_id":"kc676ynr7ctnyrrp","yelp_ratings":"5","tweet_most_recent":"Non aliquid ea illum quis maiores.","users":["Chaim A","Dena W","Sierra S","Monty B","Jordon T","Mary O","Linda P","Giovanna H"]},{"id":2,"name":"Redhold Burgers","color":"lightblue","genre":"Burgers","twitter_handle":"@Redhold BurgersBurgers","yelp_id":"gezkdkd4ptzc2y36","yelp_ratings":"2","tweet_most_recent":"Assumenda architecto voluptate quia commodi veritatis.","users":["D'angelo S","Kathleen T","Chaim A","Dena W","Abagail J","Jordon T","Jordon T","Linda P","Easter B"]},{"id":3,"name":"Y-find American","color":"lightblue","genre":"American","twitter_handle":"@Y-find AmericanAmerican","yelp_id":"p3o36i3w1bocbvlt","yelp_ratings":"3","tweet_most_recent":"Dolor tempora quod rerum corporis perferendis iure enim.","users":["Odell W","Chet B","Tracy B","Jordyn S","Maxime B","Maxime B","Skylar G","Cora L","Morris O"]},{"id":4,"name":"Mat Lam Tam Vegan","color":"lightblue","genre":"Vegan","twitter_handle":"@Mat Lam Tam VeganVegan","yelp_id":"3a54550vj78hee4s","yelp_ratings":"2","tweet_most_recent":"Libero est repellendus et ut non natus.","users":["Jordon T","Maxime B","Martin S","Sherwood S","Giovanna H","Sheridan L"]},{"id":5,"name":"Lotstring Fusion","color":"lightblue","genre":"Fusion","twitter_handle":"@Lotstring FusionFusion","yelp_id":"redenh21lcxd6jr5","yelp_ratings":"3","tweet_most_recent":"Similique itaque non deserunt fuga et dolores enim.","users":["Kenny F","Ines P","Adolfo S","Tracy B","Jordyn S","Jordyn S","Ralph R"]},{"id":6,"name":"Y-find American","color":"lightblue","genre":"American","twitter_handle":"@Y-find AmericanAmerican","yelp_id":"g7278pwyjuktvijh","yelp_ratings":"4","tweet_most_recent":"Voluptas ipsum eum rerum tenetur ea.","users":["Dalton K","Easter B","Cora L","Sallie R","Erica B"]},{"id":7,"name":"Stronghold Burgers","color":"lightblue","genre":"Burgers","twitter_handle":"@Stronghold BurgersBurgers","yelp_id":"zzrd5hvtbn11x17h","yelp_ratings":"4","tweet_most_recent":"Minus reiciendis omnis et excepturi voluptatem perspiciatis quos.","users":["Kathleen T","Ines P","Makenzie M","Dena W","Dalton K","Lucienne T","Morris O","Giovanna H","Erica B","Erica B"]},{"id":8,"name":"Keylex Korean","color":"lightblue","genre":"Korean","twitter_handle":"@Keylex KoreanKorean","yelp_id":"ksfmddlzkdnwxz7k","yelp_ratings":"4","tweet_most_recent":"Voluptate est doloribus dolore illo sequi omnis.","users":["D'angelo S","Kenny F","Chaim A","Abagail J","Elmira M","Lucienne T","Della B","Easter B","Cora L","Cora L","Peyton P","Giovanna H"]},{"id":9,"name":"Temp Burgers","color":"lightblue","genre":"Burgers","twitter_handle":"@Temp BurgersBurgers","yelp_id":"xea35nc02uj9axtj","yelp_ratings":"3","tweet_most_recent":"Quo qui repellat voluptatem aut.","users":["D'angelo S","Kenny F","Ines P","Odell W","Monty B","Karen C","Clovis M","Clovis M","Clovis M","Omari L","Omari L","Dalton K","Sherwood S","Sheridan L","Valentina O"]},{"id":10,"name":"Span Burgers","color":"lightblue","genre":"Burgers","twitter_handle":"@Span BurgersBurgers","yelp_id":"itn7cxgdhlmyvftj","yelp_ratings":"4","tweet_most_recent":"Ea eos eius enim est provident voluptatibus est.","users":["Garfield F","Roderick R","Kenny F","Sierra S","Tracy B","Lucienne T","Martin S","Cora L","Sherwood S"]},{"id":11,"name":"Treeflex Mexican","color":"lightblue","genre":"Mexican","twitter_handle":"@Treeflex MexicanMexican","yelp_id":"v5oitaut3m5gzvm3","yelp_ratings":"2","tweet_most_recent":"Officiis facere dolorum nemo.","users":["Bruce C","Chaim A","Odell W","Odell W","Sierra S","Elmira M","Omari L","Lucienne T","Maxime B","Georgette R","Martin S"]},{"id":12,"name":"Tempsoft Mexican","color":"lightblue","genre":"Mexican","twitter_handle":"@Tempsoft MexicanMexican","yelp_id":"urix4y98b2eqr6mu","yelp_ratings":"1","tweet_most_recent":"Asperiores consequatur et numquam incidunt provident ducimus voluptatibus.","users":["Kathleen T","Tracy B","Elmira M","Dalton K","Sheridan L"]},{"id":13,"name":"Treeflex Barbeque","color":"lightblue","genre":"Barbeque","twitter_handle":"@Treeflex BarbequeBarbeque","yelp_id":"7fpedvq7o9lsbgh7","yelp_ratings":"2","tweet_most_recent":"Aperiam alias ut placeat sequi nam suscipit.","users":["Garfield F","Garfield F","Garfield F","Schuyler V","Abagail J","Karen C","Karen C","Skylar G","Della B","Morris O","Makenzie L","Valentina O"]},{"id":14,"name":"Bigtax American","color":"lightblue","genre":"American","twitter_handle":"@Bigtax AmericanAmerican","yelp_id":"hvpqf2as6qi2nqot","yelp_ratings":"4","tweet_most_recent":"Autem omnis sequi ad est ducimus aliquam.","users":["D'angelo S","Garfield F","Schuyler V","Kenny F","Hester J","Martin S","Sherwood S"]},{"id":15,"name":"Trippledex Fusion","color":"lightblue","genre":"Fusion","twitter_handle":"@Trippledex FusionFusion","yelp_id":"puim9leacxfpoaoq","yelp_ratings":"5","tweet_most_recent":"Quis consectetur voluptatum mollitia nostrum dolore et qui libero.","users":["Garfield F","Adolfo S","Abagail J","Omari L","Mary O","Sheila K","Ralph R","Skylar G","Martin S","Sherwood S","Orin S","Giovanna H","Felton C","Valentina O"]},{"id":16,"name":"Rank Seafood","color":"lightblue","genre":"Seafood","twitter_handle":"@Rank SeafoodSeafood","yelp_id":"mff03inzs2wo2zip","yelp_ratings":"4","tweet_most_recent":"Beatae accusantium non ut qui dolor corrupti quibusdam.","users":["D'angelo S","Bruce C","Schuyler V","Odell W","Sierra S","Lucienne T","Sheila K"]},{"id":17,"name":"Zontrax Korean","color":"lightblue","genre":"Korean","twitter_handle":"@Zontrax KoreanKorean","yelp_id":"obp2oi8zb627os0f","yelp_ratings":"3","tweet_most_recent":"Incidunt ex ut totam eos eius porro.","users":["Adolfo S","Abagail J","Ralph R","Skylar G","Della B","Garth W","Makenzie L","Sheridan L","Erica B"]},{"id":18,"name":"Lotstring Vegan","color":"lightblue","genre":"Vegan","twitter_handle":"@Lotstring VeganVegan","yelp_id":"jkg7r4vmssuod4u2","yelp_ratings":"3","tweet_most_recent":"Modi ea eum eius.","users":["Schuyler V","Abagail J","Martin S","Peyton P","Erica B"]},{"id":19,"name":"Hatity Seafood","color":"lightblue","genre":"Seafood","twitter_handle":"@Hatity SeafoodSeafood","yelp_id":"30hltjuaggz8l9yc","yelp_ratings":"2","tweet_most_recent":"Qui totam numquam accusamus magni aliquid molestiae asperiores.","users":["Kenny F","Ines P","Dena W","Chet B","Chet B","Linda P","Skylar G","Valentina O"]},{"id":20,"name":"Tampflex Barbeque","color":"lightblue","genre":"Barbeque","twitter_handle":"@Tampflex BarbequeBarbeque","yelp_id":"ee6grvc05at4wlu2","yelp_ratings":"4","tweet_most_recent":"Molestias omnis tenetur sit ut reprehenderit ut.","users":["Makenzie L"]},{"id":21,"name":"Sonair Barbeque","color":"lightblue","genre":"Barbeque","twitter_handle":"@Sonair BarbequeBarbeque","yelp_id":"cj9a4i6bagula087","yelp_ratings":"2","tweet_most_recent":"Dolores ipsum accusamus quibusdam quo qui vero recusandae.","users":["Della B","Orin S"]},{"id":22,"name":"Alpha Vegan","color":"lightblue","genre":"Vegan","twitter_handle":"@Alpha VeganVegan","yelp_id":"r0r7ogar7v7r1flg","yelp_ratings":"5","tweet_most_recent":"Qui ut quia consequatur error perspiciatis numquam.","users":["Ines P","Adolfo S","Sheila K","Hester J","Easter B","Sherwood S","Morris O","Peyton P","Orin S"]},{"id":23,"name":"Tempsoft Seafood","color":"lightblue","genre":"Seafood","twitter_handle":"@Tempsoft SeafoodSeafood","yelp_id":"lpoiti17mhx6zuix","yelp_ratings":"4","tweet_most_recent":"Exercitationem soluta ut et autem veritatis non.","users":["Roderick R","Ines P","Ines P","Dena W","Jordyn S","Sherwood S","Peyton P","Orin S","Valentina O"]},{"id":24,"name":"Holdlamis Seafood","color":"lightblue","genre":"Seafood","twitter_handle":"@Holdlamis SeafoodSeafood","yelp_id":"c2qg3c4bbdpxdoa6","yelp_ratings":"4","tweet_most_recent":"Quia et molestiae dolorem nihil officiis et.","users":["Mary O","Linda P","Ralph R","Garth W","Erica B"]},{"id":25,"name":"Zathin Fusion","color":"lightblue","genre":"Fusion","twitter_handle":"@Zathin FusionFusion","yelp_id":"smq02scuiyzkcbi2","yelp_ratings":"4","tweet_most_recent":"Iusto error corrupti sequi.","users":["Chaim A","Tracy B","Cora L","Peyton P","Peyton P","Sheridan L"]}];
+  
 // Find the graph nodes from the data set. Each
 // album is a separate node.
 
@@ -640,16 +239,26 @@ var nodes = data.map(function(entry, idx, list) {
 
     var node = {};
 
-    // We retain some of the album's properties.
+    // // We retain some of the album's properties.
 
-    node.title    = entry.title;
-    node.subtitle = entry.artist;
+    // node.title    = entry.title;
+    // node.subtitle = entry.artist;
+    // node.image    = entry.cover;
+    // node.url      = entry.itunes;
+    // node.color    = entry.color;
+    // node.text     = entry.text;
+
+   // // We retain some of the truck's properties.
+
+    node.name    = entry.name;
+    node.subtitle = entry.genre;
+    node.subtitle = entry.twitter_handle;
     node.image    = entry.cover;
-    node.url      = entry.itunes;
+    node.url      = entry.website;
     node.color    = entry.color;
     node.text     = entry.text;
 
-    // We'll also copy the musicians, again using
+    // We'll also copy the users, again using
     // a more neutral property. At the risk of
     // some confusion, we're going to use the term
     // "link" to refer to an individual connection
@@ -659,7 +268,7 @@ var nodes = data.map(function(entry, idx, list) {
     // (This may be confusing because D3 refers to
     // the latter as "links."
 
-    node.links = entry.musicians.slice(0);
+    node.links = entry.users.slice(0);
 
     // As long as we're iterating through the nodes
     // array, take the opportunity to create an
@@ -692,12 +301,12 @@ var links = [];
 
 data.forEach(function(srcNode, srcIdx, srcList) {
 
-    // For each album, iterate through the musicians.
+    // For each album, iterate through the users.
 
-    srcNode.musicians.forEach(function(srcLink) {
+    srcNode.users.forEach(function(srcLink) {
 
-        // For each musican in the "src" album, iterate
-        // through the remaining albums in the list.
+        // For each user in the "src" truck, iterate
+        // through the remaining trucks in the list.
 
         for (var tgtIdx = srcIdx + 1;
                  tgtIdx < srcList.length;
@@ -713,7 +322,7 @@ data.forEach(function(srcNode, srcIdx, srcList) {
             // currently considering from the "src"
             // album?
 
-            if (tgtNode.musicians.some(function(tgtLink){
+            if (tgtNode.users.some(function(tgtLink){
                 return tgtLink === srcLink;
             })) {
 
@@ -924,7 +533,7 @@ var labelSelection = svg.selectAll('g.labelNode')
 
 labelSelection.append('text')
     .text(function(d, i) {
-        return i % 2 == 0 ? '' : d.node.title;
+        return i % 2 == 0 ? '' : d.node.name;
     })
     .attr('data-node-index', function(d, i){
         return i % 2 == 0 ? 'none' : Math.floor(i/2);
@@ -1080,7 +689,7 @@ var nodeClicked = function(node) {
 
         // Now add the notes content.
 
-        notes.append('h1').text(node.title);
+        notes.append('h1').text(node.name);
         notes.append('h2').text(node.subtitle);
         if (node.url && node.image) {
             notes.append('div')
@@ -1258,7 +867,7 @@ force.on('tick', function() {
             });
     });
 
-    // Update the posistions of the nodes and edges.
+    // Update the positions of the nodes and edges.
 
     nodeSelection.call(positionNode);
     labelSelection.call(positionNode);

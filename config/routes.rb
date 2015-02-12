@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get '/force01' => 'graphs#force01'
   get '/force02' => 'graphs#force02'
   get '/force04' => 'graphs#force04'
+  get '/force05' => 'graphs#force05'
+  get '/force06' => 'graphs#force06'
   get '/slider' => 'graphs#slider'
   get '/omg-particles' => 'graphs#omg-particles'
   get 'graph/data', :defaults => { :format => 'json' }
